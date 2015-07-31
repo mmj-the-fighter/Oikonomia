@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oikonomia</string>
+    <string name="app_prefs">com.xyzsoftware.oikonomia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="date_label">Date</string>
+    <string name="itemname_label">ItemName</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="amount_label">Amount</string>
+    <string name="addToExpenses_label">Add To Expenses</string>
+    <string name="summary_label">Summary</string>
+    <string name="viewExpenses_label">View All Expenses</string>
+    <string name="exportExpenses_label">Export All Expenses</string>
+    <string name="deleteExpenses_label">Delete All Expenses</string>
+</resources>

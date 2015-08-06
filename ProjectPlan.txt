@@ -1,0 +1,20 @@
+TODOs:
+Add: auto complete facility for itemName and categoryName
+Add: edit/delete record option
+
+Add: Categories:
+	Default Categories ( Food, Dress, Shelter)
+	Feature to add more categories
+	Item to category mapping
+	Category based summary
+
+Add: Visualizations:
+	Price graph of a given item (date,price)
+	Purchase frequency graph for a given item(date,number)
+	Demand graph in descending order for all items (item string,frequency)
+	Pie chart showing expenses with break up on categories
+
+Add: Purchase Planning:
+	Dynamic form  for purchasing items.
+	The user will type the budget, and item names.
+	Prediction of price of a given item on a given date based on linear regression.

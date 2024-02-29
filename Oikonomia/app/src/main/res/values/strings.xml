@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Oikonomia</string>
+    <string name="app_prefs">com.example.oikonomia</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_transaction_income_label">Income</string>
+    <string name="edit_transaction_expense_label">Expense</string>
+    <string name="date_label">Date</string>
+    <string name="search_filter_from_date_label">Start Date</string>
+    <string name="search_filter_to_date_label">End Date</string>
+    <string name="description_label">Description</string>
+    <string name="amount_label">Amount</string>
+    <string name="transactions_management_label">Feed Data</string>
+    <string name="add_to_incomes_label">Add To Incomes</string>
+    <string name="add_to_expenses_label">Add To Expenses</string>
+    <string name="transactions_view_edit_delete_label">Search, View, Edit or Delete Data</string>
+    <string name="view_all_transactions_label">All Data</string>
+    <string name="search_transactions_label">Search</string>
+    <string name="db_management_label">Manage Bulk Data</string>
+    <string name="export_all_transactions_label">Export Database</string>
+    <string name="delete_all_transactions_label">Cleanup Database</string>
+    <string name="import_transactions_label">Import Database</string>
+    <string name="edit_transaction_update_label">Update</string>
+    <string name="edit_transaction_undo_label">Undo Edit</string>
+    <string name="place_holder_text"></string>
+</resources>

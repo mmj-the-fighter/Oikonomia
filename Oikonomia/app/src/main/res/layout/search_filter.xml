@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/search_filter_from_date_label" />
+
+    <EditText
+        android:id="@+id/txtStartDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/search_filter_to_date_label" />
+
+    <EditText
+        android:id="@+id/txtEndDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:focusable="false" />
+
+    <CheckBox
+        android:id="@+id/checkBoxIncome"
+        android:checked="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_transaction_income_label"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxExpense"
+        android:checked="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_transaction_expense_label"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSearchTransactions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSearchTransactions"
+        android:text="@string/search_transactions_label" />
+
+
+</LinearLayout>

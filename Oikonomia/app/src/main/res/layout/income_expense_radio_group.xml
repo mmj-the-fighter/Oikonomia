@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioTransactionTypeGroup">
+        <RadioButton
+            android:id="@+id/radioIncome"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_transaction_income_label"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioExpense"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_transaction_expense_label"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+            android:textSize="20dp" />
+    </RadioGroup>
+</LinearLayout>

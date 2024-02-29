@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/transaction_form" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transactions_management_label" />
+        <Button
+            android:id="@+id/btnAddToExpenses"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickAddToExpenses"
+            android:text="@string/add_to_expenses_label" />
+
+        <Button
+            android:id="@+id/btnAddToIncomes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickAddToIncomes"
+            android:text="@string/add_to_incomes_label" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transactions_view_edit_delete_label" />
+        <Button
+            android:id="@+id/btnViewTransactions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickViewAllTransactions"
+            android:text="@string/view_all_transactions_label" />
+
+        <Button
+            android:id="@+id/btnSearchTransactions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickSearchAllTransactions"
+            android:text="@string/search_transactions_label" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/db_management_label" />
+
+        <Button
+            android:id="@+id/btnExportTransactions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickExportAllTransactions"
+            android:text="@string/export_all_transactions_label" />
+
+        <Button
+            android:id="@+id/btnDeleteTransactions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickDeleteTransactions"
+            android:text="@string/delete_all_transactions_label" />
+
+        <Button
+            android:id="@+id/btnImportTransactions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickImportTransactions"
+            android:text="@string/import_transactions_label" />
+
+    </LinearLayout>
+</ScrollView>

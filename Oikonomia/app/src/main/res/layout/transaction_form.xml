@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/date_label" />
+
+    <EditText
+        android:id="@+id/txtDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/description_label" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="@string/place_holder_text"
+        android:id="@+id/txtDesc"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amount_label" />
+
+    <EditText
+        android:id="@+id/txtAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal" />
+
+
+</LinearLayout>

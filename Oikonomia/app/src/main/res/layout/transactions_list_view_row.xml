@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/txtTxnDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/date_label" />
+
+    <TextView
+        android:id="@+id/txtTxnDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/description_label" />
+
+    <TextView
+        android:id="@+id/txtTxnAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amount_label" />
+
+    <TextView
+        android:id="@+id/txtTxnType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Income" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>
